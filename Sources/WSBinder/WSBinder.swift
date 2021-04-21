@@ -11,5 +11,5 @@ public class WSBinder<T: AnyObject>: NSObject {
         super.init()
         self.instance = instance
     }
-    weak var instance: T? = nil
+    public weak var instance: T? = nil
 }
